@@ -138,7 +138,7 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
-CSRF_TRUSTED_ORIGINS=['https://3a05-41-101-92-109.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS=['https://.ngrok-free.app']
 
 
 LOGIN_URL = 'api/'
@@ -151,10 +151,10 @@ LOGOUT_REDIRECT_URL='/api/'
 
 # SMTP Configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-#* host is google or yahoo
+#* host is google or yahoo ..etc
 EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server address
 
 EMAIL_PORT = 587  # Replace with your SMTP server port
 EMAIL_USE_TLS = True  # Use TLS (Transport Layer Security)
-EMAIL_HOST_USER = 'cs.alchemy.guy@gmail.com'  # Replace with your SMTP username
-EMAIL_HOST_PASSWORD = 'xpll xbvw iygy buyf'  # Replace with your SMTP password
+EMAIL_HOST_USER = '@gmail.com'  # Replace with your SMTP username
+EMAIL_HOST_PASSWORD = ''  # Replace with your SMTP password
