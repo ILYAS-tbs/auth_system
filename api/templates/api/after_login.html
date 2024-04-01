@@ -1,0 +1,10 @@
+
+
+<h1> YOU ARE LOGGED IN {{user}}</h1>
+
+<form method="POST" action="/api/api/logout/">
+
+ 
+     {% csrf_token %}
+    <button type="submit"> LOGOUT</button>
+</form>
