@@ -1,5 +1,6 @@
 
 
+venv/
 # Python related
 *.pyc
 *.pyo
